@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SoapLandingPage</title>
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header id="header">
+        <nav id="nav-bar">
+          <ul class="nav-list">
+            <li id="header-img"><img src="images/favicon.png" /></li>
+            <li class="nav-link"><a href="#shop">Shop</a></li>
+            <li class="nav-link">
+              <a href="#chexlist">SoapMakers' Checklist</a>
+            </li>
+            <li class="nav-link"><a href="#gallery">Gallery</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section>
+        <div class="half">
+          <h1>SOAP</h1>
+          <h2>All Natural</h2>
+        </div>
+      </section>
+      <div class="formContainer">
+        <form
+          method="get"
+          id="form"
+          action="url:https://www.freecodecamp.com/email-submit"
+        >
+          <input type="email" name="email" "required" id="email"
+          placeholder="Valid email please.">
+          <input type="submit" id="submit" value="Subscribe" />
+        </form>
+      </div>
+
+      <div class="circles radius">
+        <img src="images/hotProcess500.jpg" class="box" alt="hot processed" />
+        <img
+          src="images/CharcBrnWh500.jpg"
+          class="box"
+          alt="All natural made soap"
+        />
+        <img src="images/bathBombs500.jpg" class="box" alt="bath bombs" />
+      </div>
+
+      <iframe
+        width="460"
+        height="315"
+        id="video"
+        src="https://www.youtube.com/embed/d3xuUD4sbaE?start=13"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+
+      <section id="resources">
+        <article>
+          <img src="images/hotProcess700.jpg" id="shop" alt="shopping" />
+          <p>
+            All about Soap! Why you should consider making yours. A labor of
+            love.
+          </p>
+        </article>
+
+        <article>
+          <img
+            src="images/Soap-Makin.JPG"
+            id="chexlist"
+            alt=" checklist for making soap"
+          />
+          <p>
+            Making Handmade Soap yourself is exciting and creatively fun...
+            Download free formula checklist.
+          </p>
+        </article>
+
+        <article>
+          <img src="images/loofa250.png" alt="loofa+soapbar" />
+          <p id="gallery">
+            To inspire you, visit the gallery, to see what you too can have fun
+            with!
+          </p>
+        </article>
+      </section>
+
+      <footer>
+        <img src="images/social-icons.png" />
+      </footer>
+    </div>
+    <!-- DO NOT CHANGE CODE BELOW -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>

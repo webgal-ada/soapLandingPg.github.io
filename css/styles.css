@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+nav {
+  background-color: #9f99bb;
+}
+.nav-list img {
+  width: 50px;
+  padding-left: 10px;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  // width: 100%;
+  // padding: 0;
+  list-style-type: none;
+}
+.nav-link a {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #bada55;
+}
+section div img {
+  padding-top: 50px;
+}
+.half {
+  background: #646093 url("../images/BluSoap550.jpg") no-repeat center right;
+  background-size: 65% 100%;
+  color: #fff;
+  height: 65vh;
+}
+.half h2 {
+  margin: 12px;
+  font-size: 1.15em;
+  font-size: clamp(6vw, 1.15em, 2em);
+}
+h1 {
+  // position: relative;
+  // left: -78%;
+  // top: 70px;
+  font-size: 3em;
+  writing-mode: vertical-rl;
+  text-align: center;
+  letter-spacing: 1em;
+  opacity: 0.3;
+  padding: 25px;
+}
+
+.formContainer {
+  background-color: #9f99bb;
+  text-align: center;
+  height: 90px;
+}
+#form {
+  padding-top: 25px;
+}
+input[type="email"] {
+  padding: 12px;
+  height: 13px;
+  width: 225px;
+}
+input#submit {
+  padding: 5px;
+  width: 75px;
+}
+.circles.radius {
+  background-color: #646093;
+  border-top: 3px solid #bada55;
+  text-align: center;
+  padding: 25px;
+}
+.box {
+  border: 1px solid #14172b;
+  border-radius: 50%;
+  margin: 5px 11px;
+  width: 12%;
+}
+#resources {
+  display: grid;
+  font-size: 0.85em;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 8px;
+  color: #fff;
+}
+
+section article {
+  background-color: #14172b;
+  padding: 35px;
+}
+article img {
+  border: 1px solid #fff;
+}
+footer {
+  margin: 5px 0 0px 50px;
+  width: 20%;
+}
+
+@media screen and (min-width: 580px) {
+  #resources {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  h1 {
+    color: #fff;
+    left: -81%;
+  }
+  .half {
+    background: #646e4c url("images/oakmeal-Soap550.jpg") no-repeat center right;
+    background-size: 65% 100vw;
+  }
+}
