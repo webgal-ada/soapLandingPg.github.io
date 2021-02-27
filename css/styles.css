@@ -18,8 +18,6 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  // width: 100%;
-  // padding: 0;
   list-style-type: none;
 }
 .nav-link a {
@@ -30,14 +28,16 @@ nav {
 nav a:hover {
   color: #bada55;
 }
-section div img {
+/*section div img {
+   width: min(1000px, calc(70% + 100px));
   padding-top: 50px;
-}
+ }*/
 .half {
-  background: #646093 url("../images/BluSoap550.jpg") no-repeat center right;
+  background: #646093 url("../images/Blu450.jpg") no-repeat center right;
   background-size: 65% 100%;
   color: #fff;
   height: 65vh;
+  width: auto;
 }
 .half h2 {
   margin: 12px;
@@ -84,28 +84,34 @@ input#submit {
   width: 12%;
 }
 #YT {
-  text-align: center;
-  padding-bottom: 40px;
+  background-color: #14172b;
+  display: grid;
+  place-items: center;
+  padding: 40px 0 30px;
+}
+iframe {
+  width: 75%;
+  aspect-ratio: 16 / 9;
+  height: 50vh;
 }
 .resources {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-article {
+  background-color: #14172b;
+  color: #fff;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  outline: 4px dotted red;
-  padding-bottom: 10px;
-  width: 25%;
 }
-
+article > img {
+  width: 100%;
+}
+article > p {
+  margin: 25px 25px 30px 25px;
+}
 footer {
   margin: 5px 0 0px 50px;
-  width: 20%;
+  text-align: center;
 }
 
-// @media screen and (min-width: 580px) {
-//
-//   }
+/* @media screen and (min-width: 580px) {
+
+
+}*/
